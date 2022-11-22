@@ -18,5 +18,6 @@ for i in range(50000000000):
             continue
     if iter >= 500:
         print(num)
+        print(iter)
         sys.exit()
 print("Finished.")
