@@ -11,9 +11,9 @@ num = 0
 for i in range(50000000000):
     num = num + i
     iter = 0
-    for x in range(1, int(num / 2) + 1:
+    for x in range(1, int(num ** (1/2)) + 1):
         if num % x == 0:
-            iter += 1
+            iter += 2
         else:
             continue
     if iter >= 500:
