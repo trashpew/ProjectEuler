@@ -1,3 +1,9 @@
+'''
+If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
+
+21124
+'''
+
 ones = [0, 3, 3, 5, 4, 4, 3, 5, 5, 4]
 teens = [0, 6, 6, 8, 8, 7, 7, 9, 8, 8]
 tens = [0, 3, 6, 6, 5, 5, 5, 7, 6, 6]
